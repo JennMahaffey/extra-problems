@@ -11,10 +11,21 @@ let x = num ** 2 * .5
   return x;
 }
 
-function isLong() {
+function isLong(str) {
+  if(str.length >= 15){
+    return true
+  }else{
+    return false
+  }
 }
 
-function exclaim() {
+function exclaim(str) {
+  if(str[str.length-1] !== '!'){
+    return str += '!'
+  }else{
+    let myStr = str.substring(0,str.indexOf('!')+1)
+    return myStr
+  }
 }
 
 function countWords() {
