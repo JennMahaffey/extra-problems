@@ -6,7 +6,7 @@ if(num1 % num2 === 0){
 }
 }
 
-function halfSquare() {
+function halfSquare(num) {
 let x = num ** 2 * .5 
   return x;
 }
