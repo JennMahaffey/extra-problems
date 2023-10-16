@@ -7,6 +7,8 @@ if(num1 % num2 === 0){
 }
 
 function halfSquare() {
+let x = num ** 2 * .5 
+  return x;
 }
 
 function isLong() {
