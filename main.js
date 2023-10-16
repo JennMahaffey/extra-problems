@@ -28,7 +28,14 @@ function exclaim(str) {
   }
 }
 
-function countWords() {
+function countWords(str) {
+  let spaces = 0;
+  for(let char of str){
+    if(char === ' '){
+      spaces += 1;
+    }
+  }
+  return spaces + 1;
 }
 
 function containsDigit(str) {
